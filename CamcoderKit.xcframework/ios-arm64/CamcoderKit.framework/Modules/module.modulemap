@@ -1,0 +1,6 @@
+framework module CamcoderKit {
+  umbrella header "CamcoderKit.h"
+  export *
+
+  module * { export * }
+}
