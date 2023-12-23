@@ -41,6 +41,10 @@
 	<dict>
 		<key>Headers/CamcoderKit.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			pvGmOIpX2F1uYQFx6Wnuv7Vrb+4=
+			</data>
 			<key>hash2</key>
 			<data>
 			tUVpN+PmOeIgasCnRu036YtI10Dy1SEVxh3jg2oFYaY=
@@ -48,6 +52,10 @@
 		</dict>
 		<key>Modules/CamcoderKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BN+lYSRshjEGiV4UZ0UF6RjUtok=
+			</data>
 			<key>hash2</key>
 			<data>
 			eSXMwsFGma0Lp/hy1ySZkc1cANiwU3xMuZyzRbtnrb4=
@@ -55,6 +63,10 @@
 		</dict>
 		<key>Modules/CamcoderKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			g231MdLakMlg2V02lwjFHY7p2Jw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Sgfe6xNRUaNCJzmN7doLcatIkuCm1R0zS1tf+RSUhC0=
@@ -62,6 +74,10 @@
 		</dict>
 		<key>Modules/CamcoderKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			o/1qE5gBnj27RilAcQkyhavmYfU=
+			</data>
 			<key>hash2</key>
 			<data>
 			t3xMIpdb1nAIS2iDC+XprA7CCqKBHytsbfEmDnDWIOM=
@@ -69,6 +85,10 @@
 		</dict>
 		<key>Modules/CamcoderKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			g231MdLakMlg2V02lwjFHY7p2Jw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Sgfe6xNRUaNCJzmN7doLcatIkuCm1R0zS1tf+RSUhC0=
@@ -76,6 +96,10 @@
 		</dict>
 		<key>Modules/CamcoderKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rbj5gum+25uAvS18YHPuVIsF6qc=
+			</data>
 			<key>hash2</key>
 			<data>
 			AVsiza81umb0C+alu25jCDMDCO32c7PitJBdWat0EO4=
@@ -83,6 +107,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wSBi1kqWvmFAdKRofLQEusYYOWo=
+			</data>
 			<key>hash2</key>
 			<data>
 			FZR6R0eSiwpd8Qna2T7qxrY+UPviuCuWfIX2cNg1Qtw=
