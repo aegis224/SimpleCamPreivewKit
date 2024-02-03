@@ -5,15 +5,16 @@ import PackageDescription
 
 let package = Package(
     name: "CamcoderKit",
+	platforms: [.iOS(.v13), .macOS("12.4")],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "CamcoderKit",
-            targets: ["CamcoderKit"]),
+            name: "SimpleCamcoderKit",
+            targets: ["SimpleCamcoderKit"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-		.binaryTarget(name: "CamcoderKit", path: "CamcoderKit.xcframework")
+		.binaryTarget(name: "SimpleCamcoderKit", path: "SimpleCamcoderKit.xcframework")
     ]
 )

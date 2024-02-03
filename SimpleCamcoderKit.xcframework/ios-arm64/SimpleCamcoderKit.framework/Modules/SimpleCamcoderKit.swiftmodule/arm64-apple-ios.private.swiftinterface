@@ -1,0 +1,167 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SimpleCamcoderKit
+import AVFoundation
+import Accelerate
+import Combine
+import CoreGraphics
+import CoreImage
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class SimpleCamcoderKitResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum CamcoderError : Swift.Error {
+  case unAuthorized
+  case cameraIsRunning
+  case cameraIsNotConfigured
+  case cameraIsAlreadyConfigured
+  case sessionConfigFailed
+  public static func == (a: SimpleCamcoderKit.CamcoderError, b: SimpleCamcoderKit.CamcoderError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CameraSpec {
+  public let position: AVFoundation.AVCaptureDevice.Position
+  public let width: Swift.Int32
+  public let height: Swift.Int32
+  public let maxFPS: Swift.Int
+  public let deviceType: AVFoundation.AVCaptureDevice.DeviceType
+  public init(position: AVFoundation.AVCaptureDevice.Position, width: Swift.Int32, height: Swift.Int32, maxFPS: Swift.Int, deviceType: AVFoundation.AVCaptureDevice.DeviceType = .builtInWideAngleCamera)
+}
+public struct CameraView : SwiftUI.View {
+  public init(image: SwiftUI.Image?)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17SimpleCamcoderKit10CameraViewV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+final public class CameraViewModel : Foundation.ObservableObject {
+  @Combine.Published @_projectedValueProperty($currentFrame) final public var currentFrame: SwiftUI.Image? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  final public var $currentFrame: Combine.Published<SwiftUI.Image?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  final public var aspectRatio: Swift.Float {
+    get
+  }
+  final public var imageStream: Combine.AnyPublisher<CoreImage.CIImage, Swift.Never> {
+    get
+  }
+  public init(cameraSpec: SimpleCamcoderKit.CameraSpec, orientation: SimpleCamcoderKit.Orientation)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func configCamera() async throws
+  #endif
+  final public func update(camerOrientation: SimpleCamcoderKit.Orientation)
+  final public func terminate()
+  @objc deinit
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, macOS 12.4, *)
+final public class CombineCamcoder : ObjectiveC.NSObject {
+  final public let captureSession: AVFoundation.AVCaptureSession
+  final public let previewStream: Combine.PassthroughSubject<CoreImage.CIImage, Swift.Never>
+  @objc override dynamic public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func configure(camera: SimpleCamcoderKit.CameraSpec) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func resume() async throws
+  #endif
+  final public func stop() throws
+  final public func terminate()
+  final public var orientation: SimpleCamcoderKit.Orientation {
+    get
+    set
+  }
+  @objc deinit
+}
+@available(iOS 13.0, macOS 12.4, *)
+extension SimpleCamcoderKit.CombineCamcoder : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 12.0, *)
+final public class DelegatableCamcoder : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  final public var frameCallBack: ((CoreVideo.CVPixelBuffer?) -> Swift.Void)?
+  public enum CamcoderError : Swift.Error {
+    case unAuthorized
+    case cameraIsRunning
+    case cameraIsNotConfigured
+    case cameraIsAlreadyConfigured
+    case sessionConfigFailed
+    public static func == (a: SimpleCamcoderKit.DelegatableCamcoder.CamcoderError, b: SimpleCamcoderKit.DelegatableCamcoder.CamcoderError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public func configure(camera: SimpleCamcoderKit.CameraSpec) throws
+  final public func resume() throws
+  final public func stop() throws
+  final public func terminate()
+  final public var orientation: SimpleCamcoderKit.Orientation {
+    get
+    set
+  }
+  @objc deinit
+}
+extension SimpleCamcoderKit.DelegatableCamcoder : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public enum Orientation : Swift.Int, Swift.CaseIterable, Swift.CustomStringConvertible {
+  case portrait
+  case portraitUpSideDown
+  case landscapeLeft
+  case landscapeRight
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [SimpleCamcoderKit.Orientation]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [SimpleCamcoderKit.Orientation] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct CameraQueryResult {
+  public let captureDevice: AVFoundation.AVCaptureDevice?
+  public let formats: [AVFoundation.AVCaptureDevice.Format]
+}
+public func queryCamera(with spec: SimpleCamcoderKit.CameraSpec) -> SimpleCamcoderKit.CameraQueryResult
+@available(iOS 13.0, macOS 12.4, *)
+extension CoreMedia.CMFormatDescription : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension SimpleCamcoderKit.CamcoderError : Swift.Equatable {}
+extension SimpleCamcoderKit.CamcoderError : Swift.Hashable {}
+@available(iOS 12.0, *)
+extension SimpleCamcoderKit.DelegatableCamcoder.CamcoderError : Swift.Equatable {}
+@available(iOS 12.0, *)
+extension SimpleCamcoderKit.DelegatableCamcoder.CamcoderError : Swift.Hashable {}
+extension SimpleCamcoderKit.Orientation : Swift.Equatable {}
+extension SimpleCamcoderKit.Orientation : Swift.Hashable {}
+extension SimpleCamcoderKit.Orientation : Swift.RawRepresentable {}

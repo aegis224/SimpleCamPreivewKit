@@ -1,0 +1,4 @@
+framework module SimpleCamcoderKit {
+  header "SimpleCamcoderKit-Swift.h"
+  requires objc
+}
