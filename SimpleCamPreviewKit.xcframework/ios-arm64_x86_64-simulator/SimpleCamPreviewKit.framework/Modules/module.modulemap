@@ -1,0 +1,4 @@
+framework module SimpleCamPreviewKit {
+  header "SimpleCamPreviewKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,1965 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SimpleCamPreviewKitResources",
+        "printedName": "SimpleCamPreviewKitResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SimpleCamPreviewKit@objc(cs)SimpleCamPreviewKitResources(cpy)bundle",
+            "mangledName": "$s19SimpleCamPreviewKit0abcD9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "SimpleCamPreviewKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SimpleCamPreviewKit@objc(cs)SimpleCamPreviewKitResources(cm)bundle",
+                "mangledName": "$s19SimpleCamPreviewKit0abcD9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "SimpleCamPreviewKit",
+                "static": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleCamPreviewKitResources",
+                "printedName": "SimpleCamPreviewKit.SimpleCamPreviewKitResources",
+                "usr": "c:@M@SimpleCamPreviewKit@objc(cs)SimpleCamPreviewKitResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SimpleCamPreviewKit@objc(cs)SimpleCamPreviewKitResources(im)init",
+            "mangledName": "$s19SimpleCamPreviewKit0abcD9ResourcesCACycfc",
+            "moduleName": "SimpleCamPreviewKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SimpleCamPreviewKit@objc(cs)SimpleCamPreviewKitResources",
+        "mangledName": "$s19SimpleCamPreviewKit0abcD9ResourcesC",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraSpec",
+        "printedName": "CameraSpec",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "position",
+            "printedName": "position",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "usr": "c:@E@AVCaptureDevicePosition"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV8positionSo23AVCaptureDevicePositionVvp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV8positionSo23AVCaptureDevicePositionVvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "AVFoundation.AVCaptureDevice.Position",
+                    "usr": "c:@E@AVCaptureDevicePosition"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV8positionSo23AVCaptureDevicePositionVvg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV8positionSo23AVCaptureDevicePositionVvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV5widths5Int32Vvp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV5widths5Int32Vvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV5widths5Int32Vvg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV5widths5Int32Vvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV6heights5Int32Vvp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV6heights5Int32Vvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV6heights5Int32Vvg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV6heights5Int32Vvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxFPS",
+            "printedName": "maxFPS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV6maxFPSSivp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV6maxFPSSivp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV6maxFPSSivg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV6maxFPSSivg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceType",
+            "printedName": "deviceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceType",
+                "printedName": "AVFoundation.AVCaptureDevice.DeviceType",
+                "usr": "c:@T@AVCaptureDeviceType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV10deviceTypeSo015AVCaptureDeviceH0avp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV10deviceTypeSo015AVCaptureDeviceH0avp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "AVFoundation.AVCaptureDevice.DeviceType",
+                    "usr": "c:@T@AVCaptureDeviceType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV10deviceTypeSo015AVCaptureDeviceH0avg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV10deviceTypeSo015AVCaptureDeviceH0avg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(position:width:height:maxFPS:deviceType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraSpec",
+                "printedName": "SimpleCamPreviewKit.CameraSpec",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "usr": "c:@E@AVCaptureDevicePosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceType",
+                "printedName": "AVFoundation.AVCaptureDevice.DeviceType",
+                "hasDefaultArg": true,
+                "usr": "c:@T@AVCaptureDeviceType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV8position5width6height6maxFPS10deviceTypeACSo23AVCaptureDevicePositionV_s5Int32VALSiSo0noM0atcfc",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV8position5width6height6maxFPS10deviceTypeACSo23AVCaptureDevicePositionV_s5Int32VALSiSo0noM0atcfc",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isAvailable",
+            "printedName": "isAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraSpecV11isAvailableSbvp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV11isAvailableSbvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV11isAvailableSbvg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV11isAvailableSbvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SimpleCamPreviewKit10CameraSpecV",
+        "mangledName": "$s19SimpleCamPreviewKit10CameraSpecV",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraView",
+        "printedName": "CameraView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraView",
+                "printedName": "SimpleCamPreviewKit.CameraView",
+                "usr": "s:19SimpleCamPreviewKit10CameraViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SimpleCamPreviewKit10CameraViewV5imageAC7SwiftUI5ImageVSg_tcfc",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraViewV5imageAC7SwiftUI5ImageVSg_tcfc",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit10CameraViewV4bodyQrvp",
+            "mangledName": "$s19SimpleCamPreviewKit10CameraViewV4bodyQrvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit10CameraViewV4bodyQrvg",
+                "mangledName": "$s19SimpleCamPreviewKit10CameraViewV4bodyQrvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SimpleCamPreviewKit10CameraViewV",
+        "mangledName": "$s19SimpleCamPreviewKit10CameraViewV",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraViewModel",
+        "printedName": "CameraViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentFrame",
+            "printedName": "currentFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvp",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvg",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvs",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvs",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvM",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC12currentFrame7SwiftUI5ImageVSgvM",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$currentFrame",
+            "printedName": "$currentFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<SwiftUI.Image>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvp",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<SwiftUI.Image>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvg",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<SwiftUI.Image>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvs",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_Gvs",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_GvM",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC13$currentFrame7Combine9PublishedV9PublisherVy7SwiftUI5ImageVSg_GvM",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC11aspectRatioSfvp",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC11aspectRatioSfvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC11aspectRatioSfvg",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC11aspectRatioSfvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageStream",
+            "printedName": "imageStream",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<CoreImage.CIImage, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CIImage",
+                    "printedName": "CoreImage.CIImage",
+                    "usr": "c:objc(cs)CIImage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC11imageStream7Combine12AnyPublisherVySo7CIImageCs5NeverOGvp",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC11imageStream7Combine12AnyPublisherVySo7CIImageCs5NeverOGvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<CoreImage.CIImage, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CIImage",
+                        "printedName": "CoreImage.CIImage",
+                        "usr": "c:objc(cs)CIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC11imageStream7Combine12AnyPublisherVySo7CIImageCs5NeverOGvg",
+                "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC11imageStream7Combine12AnyPublisherVySo7CIImageCs5NeverOGvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cameraSpec:orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraViewModel",
+                "printedName": "SimpleCamPreviewKit.CameraViewModel",
+                "usr": "s:19SimpleCamPreviewKit15CameraViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CameraSpec",
+                "printedName": "SimpleCamPreviewKit.CameraSpec",
+                "usr": "s:19SimpleCamPreviewKit10CameraSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Orientation",
+                "printedName": "SimpleCamPreviewKit.Orientation",
+                "usr": "s:19SimpleCamPreviewKit11OrientationO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC10cameraSpec11orientationAcA0eI0V_AA11OrientationOtcfc",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC10cameraSpec11orientationAcA0eI0V_AA11OrientationOtcfc",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configCamera",
+            "printedName": "configCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC06configE0yyYaKF",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC06configE0yyYaKF",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(camerOrientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Orientation",
+                "printedName": "SimpleCamPreviewKit.Orientation",
+                "usr": "s:19SimpleCamPreviewKit11OrientationO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC6update16camerOrientationyAA0J0O_tF",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC6update16camerOrientationyAA0J0O_tF",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "terminate",
+            "printedName": "terminate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SimpleCamPreviewKit15CameraViewModelC9terminateyyF",
+            "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC9terminateyyF",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19SimpleCamPreviewKit15CameraViewModelC",
+        "mangledName": "$s19SimpleCamPreviewKit15CameraViewModelC",
+        "moduleName": "SimpleCamPreviewKit",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Orientation",
+        "printedName": "Orientation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "portrait",
+            "printedName": "portrait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.Orientation.Type) -> SimpleCamPreviewKit.Orientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.Orientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO8portraityA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO8portraityA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "portraitUpSideDown",
+            "printedName": "portraitUpSideDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.Orientation.Type) -> SimpleCamPreviewKit.Orientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.Orientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO18portraitUpSideDownyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO18portraitUpSideDownyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "landscapeLeft",
+            "printedName": "landscapeLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.Orientation.Type) -> SimpleCamPreviewKit.Orientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.Orientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO13landscapeLeftyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO13landscapeLeftyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "landscapeRight",
+            "printedName": "landscapeRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.Orientation.Type) -> SimpleCamPreviewKit.Orientation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.Orientation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO14landscapeRightyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO14landscapeRightyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO11descriptionSSvp",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO11descriptionSSvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit11OrientationO11descriptionSSvg",
+                "mangledName": "$s19SimpleCamPreviewKit11OrientationO11descriptionSSvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SimpleCamPreviewKit.Orientation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO8rawValueACSgSi_tcfc",
+            "moduleName": "SimpleCamPreviewKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO8rawValueSivp",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO8rawValueSivp",
+            "moduleName": "SimpleCamPreviewKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit11OrientationO8rawValueSivg",
+                "mangledName": "$s19SimpleCamPreviewKit11OrientationO8rawValueSivg",
+                "moduleName": "SimpleCamPreviewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SimpleCamPreviewKit.Orientation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Orientation",
+                    "printedName": "SimpleCamPreviewKit.Orientation",
+                    "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SimpleCamPreviewKit11OrientationO8allCasesSayACGvpZ",
+            "mangledName": "$s19SimpleCamPreviewKit11OrientationO8allCasesSayACGvpZ",
+            "moduleName": "SimpleCamPreviewKit",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SimpleCamPreviewKit.Orientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SimpleCamPreviewKit11OrientationO8allCasesSayACGvgZ",
+                "mangledName": "$s19SimpleCamPreviewKit11OrientationO8allCasesSayACGvgZ",
+                "moduleName": "SimpleCamPreviewKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19SimpleCamPreviewKit11OrientationO",
+        "mangledName": "$s19SimpleCamPreviewKit11OrientationO",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SimpleCamPreviewKit.Orientation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Orientation",
+                        "printedName": "SimpleCamPreviewKit.Orientation",
+                        "usr": "s:19SimpleCamPreviewKit11OrientationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SimpleCamPreviewKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CMFormatDescription",
+        "printedName": "CMFormatDescription",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22CMFormatDescriptionRefa19SimpleCamPreviewKitE11descriptionSSvp",
+            "mangledName": "$sSo22CMFormatDescriptionRefa19SimpleCamPreviewKitE11descriptionSSvp",
+            "moduleName": "SimpleCamPreviewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22CMFormatDescriptionRefa19SimpleCamPreviewKitE11descriptionSSvg",
+                "mangledName": "$sSo22CMFormatDescriptionRefa19SimpleCamPreviewKitE11descriptionSSvg",
+                "moduleName": "SimpleCamPreviewKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@T@CMFormatDescriptionRef",
+        "moduleName": "CoreMedia",
+        "intro_Macosx": "10.7",
+        "declAttributes": [
+          "Available",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CMFormatDescriptionInitTrampoline",
+            "printedName": "_CMFormatDescriptionInitTrampoline",
+            "usr": "s:9CoreMedia34_CMFormatDescriptionInitTrampolineP",
+            "mangledName": "$s9CoreMedia34_CMFormatDescriptionInitTrampolineP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 36,
+      "value": "\"SimpleCamcoder_SimpleCamPreviewKit\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 30,
+      "value": "\"PACKAGE_RESOURCE_BUNDLE_PATH\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 12,
+      "value": "\".framework\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1526,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Derived\/Sources\/TuistBundle+SimpleCamPreviewKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 64,
+      "value": "\"unable to find bundle named SimpleCamcoder_SimpleCamPreviewKit\""
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/CombineCamcoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/CombineCamcoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/DelegatableCamcoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/DelegatableCamcoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 3,
+      "value": "270"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 3,
+      "value": "270"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 3,
+      "value": "270"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/prestonkim\/Documents\/SwiftPractices\/CamcoderKit\/SimpleCamcoder\/Sources\/SimpleCamcoderKit\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
