@@ -27,6 +27,8 @@ or you can add the following dependency to your `Package.swift`:
 ```
 
 ## How to use
+### 0. Config info.plist
+As this framework using camera, you have to add `NSCameraUsageDescription` key (which will be shown as `Privacy - Camera Usage Description` in Xcode) and write reason for using camera.
 ### 1. Querying Camera
 Before initializing or running camera, please check following two conditions
 1. Authorization for access camera
