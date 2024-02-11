@@ -692,6 +692,234 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CameraViewModelError",
+        "printedName": "CameraViewModelError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unAuthorized",
+            "printedName": "unAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.CameraViewModelError.Type) -> SimpleCamPreviewKit.CameraViewModelError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraViewModelError",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                    "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO12unAuthorizedyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO12unAuthorizedyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "cameraIsNotConfigured",
+            "printedName": "cameraIsNotConfigured",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.CameraViewModelError.Type) -> SimpleCamPreviewKit.CameraViewModelError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraViewModelError",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                    "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO21cameraIsNotConfiguredyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO21cameraIsNotConfiguredyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "cameraIsAlreadyConfigured",
+            "printedName": "cameraIsAlreadyConfigured",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.CameraViewModelError.Type) -> SimpleCamPreviewKit.CameraViewModelError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraViewModelError",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                    "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO25cameraIsAlreadyConfiguredyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO25cameraIsAlreadyConfiguredyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.CameraViewModelError.Type) -> (any Foundation.LocalizedError) -> SimpleCamPreviewKit.CameraViewModelError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Foundation.LocalizedError) -> SimpleCamPreviewKit.CameraViewModelError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalizedError",
+                        "printedName": "any Foundation.LocalizedError",
+                        "usr": "s:10Foundation14LocalizedErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO5otheryAC10Foundation09LocalizedH0_pcACmF",
+            "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO5otheryAC10Foundation09LocalizedH0_pcACmF",
+            "moduleName": "SimpleCamPreviewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SimpleCamPreviewKit.CameraViewModelError.Type) -> SimpleCamPreviewKit.CameraViewModelError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraViewModelError",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                    "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SimpleCamPreviewKit.CameraViewModelError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraViewModelError",
+                        "printedName": "SimpleCamPreviewKit.CameraViewModelError",
+                        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO7unknownyA2CmF",
+            "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO7unknownyA2CmF",
+            "moduleName": "SimpleCamPreviewKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19SimpleCamPreviewKit20CameraViewModelErrorO",
+        "mangledName": "$s19SimpleCamPreviewKit20CameraViewModelErrorO",
+        "moduleName": "SimpleCamPreviewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CameraViewModel",
         "printedName": "CameraViewModel",
         "children": [

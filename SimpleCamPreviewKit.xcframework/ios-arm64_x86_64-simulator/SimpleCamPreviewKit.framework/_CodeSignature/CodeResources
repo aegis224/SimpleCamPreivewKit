@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oZrLB+Qkgz+yY4S0/lLd8y3HK3w=
+		hUiVhiT+c8BwDwwQbnXowx+XkTs=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pEWTqvje02pX2tJpjBDG+98FCrg=
+		ZOm8sYY044cJbDfm7Nn0fQfXCag=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pEWTqvje02pX2tJpjBDG+98FCrg=
+		ZOm8sYY044cJbDfm7Nn0fQfXCag=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z9vFfKf/yLFvbrnA3uWRHszU1yc=
+		pkrSH4GSYggt9sqPi4EDNZyho+4=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oZrLB+Qkgz+yY4S0/lLd8y3HK3w=
+		hUiVhiT+c8BwDwwQbnXowx+XkTs=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7W+mT/3UpGt/OkYw7poVQRMB1Fs=
+		eN23zEq7l2WU7kLnnfspmXufIcE=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7W+mT/3UpGt/OkYw7poVQRMB1Fs=
+		eN23zEq7l2WU7kLnnfspmXufIcE=
 		</data>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1ztrcZ6RDGsNAcI8nn7cdcxNlrQ=
+		7PxR8gs7U72bEA4BG1exekmnk1g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,22 +74,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oZrLB+Qkgz+yY4S0/lLd8y3HK3w=
+			hUiVhiT+c8BwDwwQbnXowx+XkTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			U8OANNYNn9hiXnePspFRKF6qtF69AZ5akQq7pnl6+T4=
+			WdHB5kd2DCVUHCYVv5E/1VPxgW/ticBKnn1sXF5qVXw=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pEWTqvje02pX2tJpjBDG+98FCrg=
+			ZOm8sYY044cJbDfm7Nn0fQfXCag=
 			</data>
 			<key>hash2</key>
 			<data>
-			HlIES2TlmMFFEfG4hGOo9jJsEh7HIaKoi0btslO2Z1Q=
+			lEwiGR+wlDn8oQofB6Yw6s8xC9mout4C3/hsKOhOFuU=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -107,44 +107,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pEWTqvje02pX2tJpjBDG+98FCrg=
+			ZOm8sYY044cJbDfm7Nn0fQfXCag=
 			</data>
 			<key>hash2</key>
 			<data>
-			HlIES2TlmMFFEfG4hGOo9jJsEh7HIaKoi0btslO2Z1Q=
+			lEwiGR+wlDn8oQofB6Yw6s8xC9mout4C3/hsKOhOFuU=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z9vFfKf/yLFvbrnA3uWRHszU1yc=
+			pkrSH4GSYggt9sqPi4EDNZyho+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PCRLCWkFr/CvJlswK4cHu/HY7iV9YXoxHoUTAYsbRok=
+			07C7D5jkdofkcLSa6EFb/L3AqPD5Dpa2LJoPf8SyFEE=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oZrLB+Qkgz+yY4S0/lLd8y3HK3w=
+			hUiVhiT+c8BwDwwQbnXowx+XkTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			U8OANNYNn9hiXnePspFRKF6qtF69AZ5akQq7pnl6+T4=
+			WdHB5kd2DCVUHCYVv5E/1VPxgW/ticBKnn1sXF5qVXw=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7W+mT/3UpGt/OkYw7poVQRMB1Fs=
+			eN23zEq7l2WU7kLnnfspmXufIcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFuoyoh3H0mdaq4M5t2odbsiCIWXLwNFkIF3uWmYCC4=
+			tBusiPTmlazQPGxQsxEUdxhrBd6e7K4R1qSnTVmVATM=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -162,22 +162,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7W+mT/3UpGt/OkYw7poVQRMB1Fs=
+			eN23zEq7l2WU7kLnnfspmXufIcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFuoyoh3H0mdaq4M5t2odbsiCIWXLwNFkIF3uWmYCC4=
+			tBusiPTmlazQPGxQsxEUdxhrBd6e7K4R1qSnTVmVATM=
 			</data>
 		</dict>
 		<key>Modules/SimpleCamPreviewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1ztrcZ6RDGsNAcI8nn7cdcxNlrQ=
+			7PxR8gs7U72bEA4BG1exekmnk1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			D+Gx/ewxM1Xj4OlpEJH377a/5AClqCIhl2XHggk7bMg=
+			rq52jwguFwijN/tcmhiBBjLn95tBO7ESUQA748hGhBg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

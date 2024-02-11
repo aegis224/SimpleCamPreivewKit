@@ -34,6 +34,13 @@ public struct CameraView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s19SimpleCamPreviewKit10CameraViewV4bodyQrvp", 0) __
 }
+public enum CameraViewModelError : Swift.Error {
+  case unAuthorized
+  case cameraIsNotConfigured
+  case cameraIsAlreadyConfigured
+  case other(any Foundation.LocalizedError)
+  case unknown
+}
 @available(iOS 13.0, *)
 final public class CameraViewModel : Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($currentFrame) final public var currentFrame: SwiftUI.Image? {
